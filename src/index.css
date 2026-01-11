@@ -1,0 +1,52 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0%;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/public/images/old-church2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.black-cover{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.495);
+}
+
+.home-details{
+      display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black-cover .home-details{
+  font-family: Raleway;
+  color: White;
+  h1{
+    font-size: 4rem;
+  }
+  img{
+    width: 8rem;
+    aspect-ratio: 4/4;
+  }
+}
