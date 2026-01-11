@@ -44,9 +44,36 @@ body{
   color: White;
   h1{
     font-size: 4rem;
+      animation: slideInFromRight 3s ease forwards;
+  }
+  p{
+    animation: slideInFromLeft  3s ease forwards;
   }
   img{
     width: 8rem;
     aspect-ratio: 4/4;
+      animation: slideInFromLeft  3s ease forwards;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
