@@ -37,18 +37,34 @@ export default function Details() {
             <img src="/images/church-pfp.png" alt="" />
             <h1>Our Vision & Mission</h1>
           </div>
-          <p className="det">
-            Destiny Christian Church exists to raise a generation of believers
-            who are rooted in prayer, grounded in the Word of God, and empowered
-            by the Holy Spirit to transform lives, families, and communities.
-            Our mission is to proclaim the Gospel of Jesus Christ with clarity
-            and conviction, to build a strong fellowship devoted to worship and
-            biblical teaching, and to equip every believer to discover and
-            fulfill their God-given purpose. We are committed to maintaining a
-            culture of consistent prayer and spiritual renewal, especially
-            through our monthly Tarry Night, while reaching out with compassion
-            and service to our community.
-          </p>
+          <div className="vis-mis-container">
+            <p className="det">
+              <h3>Our Vision</h3>
+              Destiny Christian Church exists to raise a generation of believers
+              who are rooted in prayer, grounded in the Word of God, and
+              empowered by the Holy Spirit to transform lives, families, and
+              communities. Our mission is to proclaim the Gospel of Jesus Christ
+              with clarity and conviction, to build a strong fellowship devoted
+              to worship and biblical teaching, and to equip every believer to
+              discover and fulfill their God-given purpose. We are committed to
+              maintaining a culture of consistent prayer and spiritual renewal,
+              especially through our monthly Tarry Night, while reaching out
+              with compassion and service to our community.
+            </p>
+            <p className="det">
+              <h3>Our Mission</h3>
+              Destiny Christian Church exists to raise a generation of believers
+              who are rooted in prayer, grounded in the Word of God, and
+              empowered by the Holy Spirit to transform lives, families, and
+              communities. Our mission is to proclaim the Gospel of Jesus Christ
+              with clarity and conviction, to build a strong fellowship devoted
+              to worship and biblical teaching, and to equip every believer to
+              discover and fulfill their God-given purpose. We are committed to
+              maintaining a culture of consistent prayer and spiritual renewal,
+              especially through our monthly Tarry Night, while reaching out
+              with compassion and service to our community.
+            </p>
+          </div>
         </div>
       </div>
       {/* STATEMENT */}
